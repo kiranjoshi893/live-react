@@ -1,21 +1,12 @@
-import logo from './logo.svg';
+import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>React App</h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello There!!dfdfdf
-        </a>
-      </header>
+      <NavBar />
+      {/* <NavBar sitename="dsdsd"/> */}
     </div>
   );
 }
